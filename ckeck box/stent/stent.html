@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>golu</title>
+</head>
+<body>
+    <div class="box">
+        <h4 class="text"></h4>
+    </div>
+    <input id="newtext" type="text">
+    <button onclick="aadtext()">send</button>
+    <script>
+        function aadtext(){
+            if(newtext.value !==null){
+                text.innerhtml +=text.innerhtml ?"<hr>"+newtext.value;
+                newtext.value=""
+            }
+        }
+    </script>
+</body>
+</html>
